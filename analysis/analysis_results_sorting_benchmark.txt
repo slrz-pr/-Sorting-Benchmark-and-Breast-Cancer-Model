@@ -1,0 +1,8 @@
+# Sorting Benchmark Results
+Comparison of sorting 1,000 random integers.
+
+- Quick Sort (O(n log n)): 0.00318 seconds
+- Bubble Sort (O(n^2)): 0.08895 seconds
+
+Note: Quick Sort was significantly faster. In bioinformatics, algorithms like Quick Sort are essential 
+because genomic datasets contain millions of entries where O(n^2) would be computationally prohibitive.
